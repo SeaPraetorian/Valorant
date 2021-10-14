@@ -107,6 +107,25 @@ h4 {
 
 
 
+
+
+#modal {
+  position: absolute;
+  z-index: 2;
+  background-color: #071231c2;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+iframe {
+  text-align: center;
+  width: 60%;
+  height: 500px;
+  margin: auto;
+}
+
 .wrapper {
   width: 80%;
   margin: 0 auto;
