@@ -1,0 +1,197 @@
+.bodyy{
+     background-color: #ece8e1;
+     
+}
+.topnav{
+    background-color: rgb(12 22 29);
+    overflow: hidden;
+}
+
+.topnav a{  
+    float: left;
+    display: block;
+    color: #b2b4b5;
+    text-align: center;
+    padding: 14px 16px;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.topnav a.reg{
+    float: right;
+    color: #b2b4b5;
+    margin-top: 5px;
+    font-size: 20px
+}
+
+.topnav a.reg:hover{
+    background-color: black;
+    color: rgb(0, 153, 255);
+}
+
+.topnav a.active{
+    font-weight: bold;
+    font-size: calc(15px+1vw);
+}
+
+.topnav .icon{
+    display: none;
+}
+
+body, html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+}
+
+.hero-image{
+    background: url(../images/1.jpg);
+    height: 70%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    transition: height 1s;
+}
+
+
+
+div.text-container{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    font-family: sans-serif;
+
+}
+
+
+
+h2{
+
+    position: relative;
+    margin: 0;
+    font-size: 100px;
+    font-weight: 900;
+    color: rgb(224 48 86);
+    z-index: 1;
+    overflow: hidden;   
+}
+
+
+h3 {
+
+  font-weight: 700;
+  font-size: 18px;
+}
+
+h4 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 32px;
+  color: #adadad;
+
+}
+
+
+.cover{
+ background: url(../images/valo.jpg);
+
+}
+
+
+
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.romantic {
+  width: 100%;
+}
+
+.romantic .romantic-anime {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.romantic .mask {
+  position: relative;
+  width: 250px;
+  height: 400px;
+}
+
+.romantic .anime1 {
+  background-image: url("../images/jett.jpg");
+   background-size: cover;
+}
+
+.romantic .anime2 {
+  background-image: url("../images/sage.jpg");
+  background-size: cover;
+}
+
+.romantic .anime3 {
+  background-image: url("../images/sova.jpg");
+  background-size: cover;
+}
+
+.romantic .anime4 {
+  background-image: url("../images/reyna.jpg");
+  background-size: cover;
+}
+
+
+
+
+
+
+.mask .shade {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 0;
+  margin: 0;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  opacity: 0;
+  -webkit-transition: all 0.5s ease-in-out 100ms;
+  transition: all 0.5s ease-in-out 100ms;
+}
+
+.mask:hover {
+  -webkit-box-shadow: 0 10px 5px rgba(0, 0, 0, 0.186);
+          box-shadow: 0 10px 5px rgba(0, 0, 0, 0.186);
+}
+
+.mask:hover .shade {
+  opacity: 1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background-color: #c6b9b9;
+}
+
